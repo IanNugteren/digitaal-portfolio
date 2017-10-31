@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url("earth.jpg");
     background-size: cover;
@@ -9,18 +14,194 @@ body {
 
 a , li {
     text-decoration: none;
-    color: white;
-    font-size:15px;
+    font-size:14px;
     list-style-type: none;
     display: inline;
     padding: 5px;
+    color : #979696;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.4);
 }
 
-ul {
+nav > ul {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+}
+
+.section {
+    position: absolute;
+    top: 140px;
+    left: 370px;
+    color: #D1D1D1;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 250px;
+    width: 600px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.section:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40px;
+    position: fixed;
+    bottom: 0;
     text-align: center;
 }
+
+i {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.ian {
+    color: #979696;
+}
+
+#ian {
+    font-weight: 300;
+    font-size: 34px;
+}
+
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#article1 {
+    margin-top: 70px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 49%;
+    height: 150px;
+    border-radius: 3px;
+    color: #D1D1D1;
+}
+
+#article2 {
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 49%;
+    height: 150px;
+    border-radius: 3px;
+    color: #D1D1D1;  
+}
+
+#article3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 49%;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 150px;
+    border-radius: 3px; 
+    color: #D1D1D1;
+}
+
+#article4 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 49%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 3px; 
+    color: #D1D1D1;
+}
+
+#article5 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 49%;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 150px;
+    border-radius: 3px; 
+    color: #D1D1D1;
+}
+
+#article6 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 49%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 3px; 
+    color: #D1D1D1; 
+}
+
+#article7{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 3px; 
+    color: #D1D1D1; 
+    margin-bottom: 60px;
+}
+
+#article1:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+#article2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+#article3:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+#article4:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+#article5:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+#article6:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+#article7:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+#samenvatting {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#foto {
+    float: left;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.h2 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}  
+
+
 
