@@ -40,12 +40,12 @@ nav > ul {
     padding: 10px;
     margin: 0 auto;
     margin-top: 70px;
+    transition: 1s;
     
 }
 
 .section:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
 }
 
 nav {
@@ -93,6 +93,7 @@ i {
     height: 150px;
     border-radius: 3px;
     color: #D1D1D1;
+    transition: 1s;
 }
 
 #article2 {
@@ -102,6 +103,7 @@ i {
     height: 150px;
     border-radius: 3px;
     color: #D1D1D1;  
+    transition: 1s;
 }
 
 #article3 {
@@ -112,6 +114,7 @@ i {
     height: 150px;
     border-radius: 3px; 
     color: #D1D1D1;
+    transition: 1s;
 }
 
 #article4 {
@@ -121,6 +124,7 @@ i {
     height: 150px;
     border-radius: 3px; 
     color: #D1D1D1;
+    transition: 1s;
 }
 
 #article5 {
@@ -131,6 +135,7 @@ i {
     height: 150px;
     border-radius: 3px; 
     color: #D1D1D1;
+    transition: 1s;
 }
 
 #article6 {
@@ -140,37 +145,32 @@ i {
     height: 150px;
     border-radius: 3px; 
     color: #D1D1D1; 
+    transition: 1s;
 }
 
 
 #article1:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.8);  
 }
 
 #article2:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
 }
 
 #article3:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
 }
 
 #article4:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
 }
 
 #article5:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
 }
 
 #article6:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
 }
 
 #samenvatting {
