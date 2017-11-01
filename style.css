@@ -32,15 +32,15 @@ nav > ul {
 }
 
 .section {
-    position: absolute;
-    top: 140px;
-    left: 370px;
     color: #D1D1D1;
     background-color: rgba(0, 0, 0, 0.6);
     height: 250px;
     width: 600px;
     border-radius: 3px;
     padding: 10px;
+    margin: 0 auto;
+    margin-top: 70px;
+    
 }
 
 .section:hover {
@@ -51,6 +51,7 @@ nav > ul {
 nav {
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 footer {
@@ -194,6 +195,10 @@ i {
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+#section {
+
 }
 
 
