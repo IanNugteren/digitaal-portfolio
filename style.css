@@ -141,15 +141,6 @@ i {
     color: #D1D1D1; 
 }
 
-#article7{
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    margin-top: 20px;
-    height: 150px;
-    border-radius: 3px; 
-    color: #D1D1D1; 
-    margin-bottom: 60px;
-}
 
 #article1:hover {
     background-color: rgba(0, 0, 0, 0.8);
@@ -181,11 +172,6 @@ i {
     transition: 1s;
 }
 
-#article7:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    transition: 1s;
-}
-
 #samenvatting {
     font-size: 14px;
     margin-top: 5px;
@@ -202,6 +188,13 @@ i {
     margin-left: 10px;
     margin-top: 5px;
 }  
+
+.p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
 
 
 
