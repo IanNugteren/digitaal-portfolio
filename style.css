@@ -235,7 +235,93 @@ i {
 
 .paragraph {
     font-size: 14px;
-    margin-top: 5px;
-    
+    margin-top: 5px;   
 }
 
+/* media queries*/
+
+@media screen and (max-width: 995px){
+        #article1 {
+            width: 90%
+        }
+
+        #article2 {
+            width: 90%
+        }
+
+        #article3 {
+            width: 90%
+        }
+
+        #article4 {
+            width: 90%
+        }
+
+        #article5 {
+            width: 90%
+        }
+
+        #article6 {
+            width: 90%
+        }
+
+@media screen and (max-width:500px) {
+    #article1 {
+        height: 250px;
+    }
+
+    #article2 {
+       height: 250px;
+       margin-top: 20px;
+    }
+
+    #article3 {
+        height: 250px;
+    }
+
+    #article4 {
+        height: 250px;
+    }
+
+    #article5 {
+        height: 250px;
+    }
+
+    #article6 {
+       height: 250px;
+       margin-bottom: 60px;
+    }
+}
+
+        
+}
+
+@media screen and (max-width: 600px) {
+    .section , .section2 , #section3 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .section , .section2  {
+        height: 300px;
+    }
+
+    #section3 {
+        height: 500px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section , .section2, {
+        height: 390px;
+    }
+}
+
+@media screen and (max-width:309px) {
+   .section , .section2, #section3 {
+       margin-top: 80px;
+   } 
+
+   
