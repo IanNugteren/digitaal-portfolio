@@ -304,18 +304,18 @@ i {
 
 @media screen and (max-width: 413px) {
     .section , .section2  {
-        height: 350px;
+        height: 330px;
     }
 
     #section3 {
-        height: 560px;
+        height: 530px;
         margin-bottom: 60px;
     }
 }
 
 @media screen and (max-width:360px) {
     .section , .section2, {
-        height: 420px;
+        height: 400px;
     }
 }
 
